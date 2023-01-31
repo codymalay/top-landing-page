@@ -1,20 +1,13 @@
 body {
     font-family: "roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 h1 {
     font-weight: 900;
 }
-.hero,
-.footer {
-    background-color: #1F2937;
-}
-.hero-text > h1 {
-    font-size: 48px;
-    color: #F9FAF8;
-}
-.text {
-    font-size: 18px;
-    color: #e5e7eb;
+img {
+    color: white;
 }
 a {
     text-decoration: none;
@@ -27,21 +20,19 @@ button {
     padding: 4px 12px;
     border-radius: 8px;
 }
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 .foot-butt {
     border-color: white;
 }
 .call-to-action {
     padding: 40px 80px;
-}
-#call-to-action {
-    font-size: 18px;
-    background-color: #3882F6;
-    border-radius: 8px;
-    color: #F9FAF8;
-}
-.information > h1 {
-    font-size: 36px;
-    color: #1F2937;
 }
 .quote-section {
     background-color: #E5E7EB;
@@ -49,4 +40,18 @@ button {
 .quote {
     font-size: 36px;
     color: #1F2937;
+}
+.information > h1 {
+    font-size: 36px;
+    color: #1F2937;
+}
+.hero-text > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+#call-to-action {
+    font-size: 18px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
 }
