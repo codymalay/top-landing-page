@@ -22,8 +22,15 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 4px 12px;
+    padding: 4px 18px;
     border-radius: 8px;
+    margin-top: 8px;
+}
+.hero,
+.information,
+.quote-section,
+.footer {
+    padding: 0 60px;
 }
 .hero,
 .footer {
@@ -32,23 +39,24 @@ button {
 .header {
     display: flex;
     justify-content: space-evenly;
+    column-gap: 25%;
+    padding-top: 12px;
 }
-/* .right-header {
-    margin-left: auto;
-}
-.left-header  {
-    margin-right: auto;
-} */
 .hero-text {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 100px 0px;
+    column-gap: 5%;
 }
 .title-box {
-    max-width: 400px;
+    max-width: 450px;
 }
 #title-photo {
-    max-width: 400px;
+    max-width: 350px;
+}
+#title-button {
+    border: 0;
 }
 .text {
     font-size: 18px;
