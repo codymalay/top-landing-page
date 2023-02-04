@@ -105,14 +105,21 @@ button {
     padding-right: 36px;
 }
 .call-to-action {
-    padding: 40px 80px;
-}
-.foot-butt {
-    border-color: white;
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #call-to-action {
     font-size: 18px;
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 4px;
+    max-width: 80%;
+    padding: 36px 80px;
     color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+.cta-button {
+    border-color: white;
 }
