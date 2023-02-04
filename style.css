@@ -5,7 +5,6 @@ body {
 }
 h1 {
     font-weight: 900;
-    margin: 0px !important;
 }
 p {
     margin: 0px !important;
@@ -52,6 +51,12 @@ button {
 .title-box {
     max-width: 450px;
 }
+.title-box > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0px !important;
+
+}
 #title-photo {
     max-width: 350px;
 }
@@ -62,28 +67,48 @@ button {
     font-size: 18px;
     color: #e5e7eb;
 }
-.call-to-action {
-    padding: 40px 80px;
+.information {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information > h1 {
+    font-size: 36px;
+    color: #1F2937;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.info-box,
+.content-image {
+    max-width: 250px;
+}
+.desc {
+    text-align: center;
 }
 .quote-section {
     background-color: #E5E7EB;
+    padding: 120px 20% 60px;
 }
 .quote {
     font-size: 36px;
     color: #1F2937;
 }
+.attribution {
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 36px;
+}
+.call-to-action {
+    padding: 40px 80px;
+}
 .foot-butt {
     border-color: white;
-}
-.information > h1 {
-    font-size: 36px;
-    color: #1F2937;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-.title-box > h1 {
-    font-size: 48px;
-    color: #F9FAF8;
 }
 #call-to-action {
     font-size: 18px;
