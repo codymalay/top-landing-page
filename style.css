@@ -13,6 +13,7 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    padding: 8px;
 }
 button {
     background-color: #3882F6;
@@ -24,6 +25,16 @@ button {
 .footer {
     background-color: #1F2937;
 }
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .right-header {
+    margin-left: auto;
+}
+.left-header  {
+    margin-right: auto;
+} */
 .text {
     font-size: 18px;
     color: #e5e7eb;
